@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/viewLogo"
+        android:layout_width="72.0dip"
+        android:layout_height="72.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+    <TextView
+        android:id="@+id/textViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="@string/logo_txt"
+        android:textColor="@color/white"
+        android:textSize="24.0sp" />
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form_background">
+
+        <LinearLayout
+            android:id="@+id/formContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/textViewDepart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:text="@string/gareDepartString" />
+
+            <AutoCompleteTextView
+                android:id="@+id/gareDepart"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:background="@drawable/edit_background"
+                android:inputType="text"
+                android:lines="1"
+                android:textColor="@color/lightBlack" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@color/lightGrey" />
+
+            <TextView
+                android:id="@+id/textViewArrivee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:text="@string/gareArriveString" />
+
+            <AutoCompleteTextView
+                android:id="@+id/gareArrivee"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:background="@drawable/edit_background"
+                android:inputType="text"
+                android:lines="1"
+                android:textColor="@color/lightBlack" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@color/lightGrey" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/textViewJour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5.0dip"
+                    android:text="@string/jourDepartString" />
+
+                <TextView
+                    android:id="@+id/textViewDateJour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5.0dip"
+                    android:layout_toRightOf="@+id/textViewJour"
+                    android:text="@string/date_txt"
+                    android:textColor="@color/blue" />
+
+                <Button
+                    android:id="@+id/btnSetDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:background="@drawable/btn_background"
+                    android:paddingRight="5.0dip"
+                    android:text="@string/date"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@color/lightGrey" />
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:background="@drawable/btn_background"
+                android:paddingRight="5.0dip"
+                android:text="@string/search"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

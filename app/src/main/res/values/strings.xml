@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SNTF Mobile</string>
+    <string name="app_pub">app by Guenoapps - www.guenoapps.com</string>
+    <string name="resultats">LES RESULTATS</string>
+    <string name="recherche_bar">SNTF Mobile</string>
+    <string name="logo_txt">Le guide horaires</string>
+    <string name="about_title">Le guide horaires: SNTF</string>
+    <string name="action_about">A propos</string>
+    <string name="app_description">"SNTF Mobile est la première application mobile vous permettant d'accéder aux horaires des trains du SNTF (Algérie). Développeur: GuenoApps"</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="gareDepartString">Gare de Départ</string>
+    <string name="gareArriveString">"Gare d'Arrivée"</string>
+    <string name="jourDepartString">Jour:</string>
+    <string name="search">Recherche</string>
+    <string name="btnSetDate">Changer la date</string>
+    <string name="date">Date</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="date_txt">09/14/2013</string>
+    <string name="depart">DEPART</string>
+    <string name="arrivee">ARRIVEE</string>
+    <string name="ligne_train">Grande ligne - Train ordinaire</string>
+    <string name="numero_train">B1</string>
+    <string name="heure">11:43</string>
+    <string name="adUnitID">a153035e563c908</string>
+    <string name="title_activity_splach_screen">SplachScreenActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+</resources>
